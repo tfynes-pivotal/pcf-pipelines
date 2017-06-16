@@ -301,10 +301,10 @@ jobs:
       db_networkpolicyserverdb_password: {{db_networkpolicyserverdb_password}}
       db_nfsvolumedb_username: {{db_nfsvolumedb_username}}
       db_nfsvolumedb_password: {{db_nfsvolumedb_password}}
-      locket_username: {{locket_username}}
-      locket_password: {{locket_password}}
-      silk_username: {{silk_username}}
-      silk_password: {{silk_password}}
+      db_locket_username: {{db_locket_username}}
+      db_locket_password: {{db_locket_password}}
+      db_silk_username: {{db_silk_username}}
+      db_silk_password: {{db_silk_password}}
 
   - task: configure-ert
     file: pcf-pipelines/tasks/install-ert/configure-ert/task.yml
