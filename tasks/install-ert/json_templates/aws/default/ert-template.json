@@ -16,6 +16,10 @@
   },
   "properties": {
     "properties": {
+      ".properties.system_database.external.locket_username": { "value": "{{locket_username}}" },
+      ".properties.system_database.external.locket_password": { "value": "{{locket_password}}" },
+      ".properties.system_database.external.silk_username": { "value": "{{silk_username}}" },
+      ".properties.system_database.external.silk_password":  { "value": "{{silk_password}}" },
       ".properties.networking_point_of_entry": {
         "value": "external_ssl"
         },

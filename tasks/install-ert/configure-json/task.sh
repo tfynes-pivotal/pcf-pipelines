@@ -48,6 +48,10 @@ sed -i \
   -e "s/{{pcf_ert_domain}}/${pcf_ert_domain}/g" \
   -e "s/{{terraform_prefix}}/${terraform_prefix}/g" \
   -e "s/{{mysql_monitor_recipient_email}}/${mysql_monitor_recipient_email}/g" \
+  -e "s/{{locket_username}}/${locket_username}/g" \
+  -e "s/{{locket_password}}/${locket_password}/g" \
+  -e "s/{{silk_username}}/${silk_username}/g" \
+  -e "s/{{silk_password}}/${silk_password}/g" \
   ${json_file}
 
 if [[ ${MYSQL_BACKUPS} == "scp" ]]; then

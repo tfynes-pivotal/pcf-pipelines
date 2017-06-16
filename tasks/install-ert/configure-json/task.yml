@@ -75,3 +75,7 @@ params:
   db_networkpolicyserverdb_password:
   db_nfsvolumedb_username:
   db_nfsvolumedb_password:
+  locket_username:
+  locket_password:
+  silk_username:
+  silk_password:
