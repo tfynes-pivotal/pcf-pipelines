@@ -29,12 +29,10 @@ params:
   pcf_ert_ssl_key:
   terraform_template:
   terraform_prefix:
-  # IaaS Specific for GCP only
-  gcp_proj_id:
-  gcp_region:
-  gcp_svc_acct_key:
   gcp_storage_access_key:
   gcp_storage_secret_key:
+  # aws specific
+  S3_ENDPOINT:
   # db credentials
   db_app_usage_service_username:
   db_app_usage_service_password:
