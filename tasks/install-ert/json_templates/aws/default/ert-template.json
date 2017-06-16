@@ -16,10 +16,6 @@
   },
   "properties": {
     "properties": {
-      ".properties.system_database.external.locket_username": { "value": "{{locket_username}}" },
-      ".properties.system_database.external.locket_password": { "value": "{{locket_password}}" },
-      ".properties.system_database.external.silk_username": { "value": "{{silk_username}}" },
-      ".properties.system_database.external.silk_password":  { "value": "{{silk_password}}" },
       ".properties.networking_point_of_entry": {
         "value": "external_ssl"
         },
@@ -55,6 +51,18 @@
       },
       ".properties.system_database.external.host": {
         "value": "{{db_host}}"
+      },
+      ".properties.system_database.external.locket_username": { "value": "{{locket_username}}" },
+      ".properties.system_database.external.locket_password": {
+        "value": {
+	  "secret": "{{locket_password}}"
+        }
+      },
+      ".properties.system_database.external.silk_username": { "value": "{{silk_username}}" },
+      ".properties.system_database.external.silk_password": {
+        "value": {
+	  "secret": "{{silk_password}}"
+        }
       },
       ".properties.system_database.external.app_usage_service_username": {
         "value": "{{db_app_usage_service_username}}"
