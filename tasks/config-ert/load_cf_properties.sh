@@ -115,8 +115,8 @@ jq \
     ".mysql_monitor.recipient_email": {
       "value": $mysql_monitor_email
     },
-    ".diego_cell.garden_network_pool": {
-      "value": $garden_network_pool
+    ".diego_cell.garden_network_pool_cidr": {
+      "value": $garden_network_pool_cidr
     },
     ".diego_cell.garden_network_mtu": {
       "value": $garden_network_mtu
